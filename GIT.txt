@@ -1,0 +1,41 @@
+status
+add
+commit
+git remote add origin git@github.com:Pozdnya/My-resume.git
+git push -u origin master
+pull
+
+
+git add filename # Добавление файла filename в индекс
+git add * # Добавление всех файлов в индекс
+git add . # Добавление всех файлов в индекс
+
+git rm filename # Удаление файла из индекса
+
+git status # Просмотр статуса локального репозитория
+
+git commit # Добавление из индекса в слепок/ Требует ввода комментария
+git commit -m "comment" # Добавление из индекса в слепок c быстрым вводом комментария
+
+shh-keygen
+cat ~/.ssh/id_rsa.pub
+
+git diff # Сравнение веток, рабочей директории и индекса и прочие сравнения
+
+git diff --cached # сравнение проиндексированных изменений с непроиндексировной версией кода
+
+git reset # Отмена изменений
+
+git push # Залить закоммиченные изменения на сервер
+git fetch # Скачать новые изменения с сервера (без слияния)
+git pull # Скачать новые изменения с сервера (со слиянием)
+
+
+git checkout # Переключиться на ветку
+git checkout -b # Переключиться на новую ветку и создать ее
+git checkout filename # отменить все изменения в файле 
+
+git branch # удаляет, создает и перечисляет ветки
+
+		PUTTY
+rm -rf ~/public_html/myresume/   ------ удаление папок с содержимым

@@ -1,0 +1,11 @@
+.wrapper {
+  width: 40%;
+}
+
+.product {
+  cursor: pointer;
+}
+
+.product:hover {
+  color: rgb(27, 235, 190);
+}

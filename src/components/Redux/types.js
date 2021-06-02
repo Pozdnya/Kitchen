@@ -1,0 +1,3 @@
+export const GET_PRODUCT = 'GET_PRODUCT'
+export const DELETE_PRODUCT = 'DELETE_PRODUCT'
+export const SHOW_CONSOLE = 'SHOW_CONSOLE'
